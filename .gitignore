@@ -1,2 +1,4 @@
 bin
 pkg
+tcp-client.exe
+tcp-server.exe

@@ -1,4 +1,4 @@
-package main
+package main // import "tcp-server"
 
 import (
 	"bufio"
