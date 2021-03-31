@@ -11,10 +11,10 @@ import (
 var delimiter = '\n'
 
 func pcListener(fin chan int) {
-	fmt.Println("Server Listening TCP localhost:8081")
+	fmt.Println("Server Listening TCP localhost:7749")
 	fmt.Println("Ctrl+C to finish.")
 
-	ln, _ := net.Listen("tcp", ":8081")
+	ln, _ := net.Listen("tcp", ":7749")
 	defer ln.Close()
 
 	con, _ := ln.Accept()

@@ -10,7 +10,7 @@ import (
 var delimiter = '\n'
 
 func main() {
-	con, _ := net.Dial("tcp", "127.0.0.1:8081")
+	con, _ := net.Dial("tcp", "127.0.0.1:7749")
 	fmt.Println("Client ready.")
 	fmt.Println("Ctrl+C to finish.")
 	for {
