@@ -1,9 +1,6 @@
-# Simple TCP Socket example for practice
+# TCP socket practice
 
-## Simply send/receive string
-
-
-
+Simply send/receive string with multiple connection acceptance
 
 Modified from below link
 
