@@ -1,6 +1,6 @@
 # TCP socket practice
 
-Simply send/receive string with multiple connection acceptance
+Simply send/receive string
 
 Modified from below link
 
