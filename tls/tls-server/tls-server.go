@@ -94,7 +94,10 @@ func tcpServer() {
 		log.Fatal("Error loading certificate. ", err)
 	}
 
-	tlsCfg := &tls.Config{Certificates: []tls.Certificate{cert}}
+	tlsCfg := &tls.Config{
+		Certificates:       []tls.Certificate{cert},
+		InsecureSkipVerify: true,
+	}
 
 	listener, _ := tls.Listen("tcp", ":"+port, tlsCfg)
 	defer listener.Close()
